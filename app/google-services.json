@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86273413555",
+    "firebase_url": "https://simple-vhc.firebaseio.com",
+    "project_id": "simple-vhc",
+    "storage_bucket": "simple-vhc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86273413555:android:16611adeef6bf5e1",
+        "android_client_info": {
+          "package_name": "com.example.vinneyboy.simplevhc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86273413555-24c7fkjmjbsb1q07otr7fpg2m1gak13o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vinneyboy.simplevhc",
+            "certificate_hash": "87f258680e625f38153fdee635ee660ef38ad4e7"
+          }
+        },
+        {
+          "client_id": "86273413555-uob7epjn56d81eqo8ufji96eeua92tjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZMQdYs5z_Bsx8wmq3IRm6DE0a4V1gC8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86273413555-uob7epjn56d81eqo8ufji96eeua92tjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

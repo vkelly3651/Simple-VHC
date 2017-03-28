@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_check_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vinneyboy.simplevhc.FirstCheckPage">
+
+
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="29dp"
+    android:id="@+id/brakeFluid"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="170dp"
+    android:layout_marginStart="170dp">
+
+
+    <TextView
+        android:text="@string/BrakeFluid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_weight="1" />
+
+    <RadioButton
+        android:text="@string/Green"
+        android:buttonTint="#008000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        android:onClick="RBClicked"/>
+    <RadioButton
+        android:text="@string/Amber"
+        android:buttonTint="#FFA200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:onClick="RBClicked"/>
+
+    <RadioButton
+        android:text="@string/Red"
+        android:buttonTint="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7"
+        android:onClick="RBClicked"
+         />
+
+    <RadioButton
+        android:text="@string/NC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton8"
+        android:onClick="RBClicked"/>
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/coolant"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp">
+
+        <TextView
+            android:text="@string/Cool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/Green"
+            android:buttonTint="#008000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton9"
+            android:onClick="RBClicked"/>
+        <RadioButton
+            android:text="@string/Amber"
+            android:buttonTint="#FFA200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton10"
+            android:onClick="RBClicked" />
+
+        <RadioButton
+            android:text="@string/Red"
+            android:buttonTint="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton11"
+            android:onClick="RBClicked"/>
+
+        <RadioButton
+            android:text="@string/NC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton12"
+            android:onClick="RBClicked"/>
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/frontRearWasher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginStart="170dp">
+
+
+        <TextView
+            android:text="@string/Washer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/Green"
+            android:buttonTint="#008000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton13"
+            android:onClick="RBClicked"/>
+        <RadioButton
+            android:text="@string/Amber"
+            android:buttonTint="#FFA200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton14"
+            android:onClick="RBClicked"/>
+
+        <RadioButton
+            android:text="@string/Red"
+            android:buttonTint="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton15"
+            android:onClick="RBClicked"
+            />
+
+        <RadioButton
+            android:text="@string/NC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton16"
+            android:onClick="RBClicked" />
+    </RadioGroup>
+
+    <Button
+        android:text="@string/Next"
+        android:onClick="gotoSecondCheckPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/frontRearWasher"
+        android:layout_alignEnd="@+id/frontRearWasher" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/engineOil"
+        android:layout_alignTop="@+id/brakeFluid"
+        android:layout_alignLeft="@+id/coolant"
+        android:layout_alignStart="@+id/coolant">
+
+        <TextView
+            android:text="@string/EngOil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/Green"
+            android:buttonTint="#008000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:onClick="RBClicked"/>
+        <RadioButton
+            android:text="@string/Amber"
+            android:buttonTint="#FFA200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:onClick="RBClicked"/>
+
+        <RadioButton
+            android:text="@string/Red"
+            android:buttonTint="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:onClick="RBClicked"/>
+
+        <RadioButton
+            android:text="@string/NC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:onClick="RBClicked"/>
+    </RadioGroup>
+
+</RelativeLayout>
